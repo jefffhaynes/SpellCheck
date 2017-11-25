@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CORRECTIVE_ACTION.cs" />
+    <Compile Include="CorrectiveAction.cs" />
     <Compile Include="IEnumSpellingError.cs" />
     <Compile Include="IEnumString.cs" />
     <Compile Include="IOptionDescription.cs" />

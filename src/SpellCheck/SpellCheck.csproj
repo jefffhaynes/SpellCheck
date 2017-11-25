@@ -44,13 +44,6 @@
     <Compile Include="SpellingError.cs" />
     <Compile Include="UserDictionariesRegistrar.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MsSpellCheckLib\MsSpellCheckLib.csproj">
-      <Project>{e316a827-99bb-4cd1-b800-d5d491bf54a6}</Project>
-      <Name>MsSpellCheckLib</Name>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

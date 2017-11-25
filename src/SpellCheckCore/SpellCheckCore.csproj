@@ -33,10 +33,4 @@
     <Compile Include="..\SpellCheck\UserDictionariesRegistrar.cs" Link="UserDictionariesRegistrar.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MsSpellCheckLib\MsSpellCheckLib.csproj">
-      <EmbedInteropTypes>true</EmbedInteropTypes>
-    </ProjectReference>
-  </ItemGroup>
-
 </Project>

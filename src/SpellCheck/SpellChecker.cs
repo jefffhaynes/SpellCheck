@@ -195,15 +195,15 @@ namespace PlatformSpellCheck
 
                     switch (currentError.CorrectiveAction)
                     {
-                        case MsSpellCheckLib.CORRECTIVE_ACTION.CORRECTIVE_ACTION_DELETE:
+                        case MsSpellCheckLib.CorrectiveAction.CorrectiveActionDelete:
                             action = RecommendedAction.Delete;
                             break;
 
-                        case MsSpellCheckLib.CORRECTIVE_ACTION.CORRECTIVE_ACTION_GET_SUGGESTIONS:
+                        case MsSpellCheckLib.CorrectiveAction.CorrectiveActionGetSuggestions:
                             action = RecommendedAction.GetSuggestions;
                             break;
 
-                        case MsSpellCheckLib.CORRECTIVE_ACTION.CORRECTIVE_ACTION_REPLACE:
+                        case MsSpellCheckLib.CorrectiveAction.CorrectiveActionReplace:
                             action = RecommendedAction.Replace;
                             break;
                     }

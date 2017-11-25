@@ -56,12 +56,6 @@
     <Compile Include="SpellCheckerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SpellCheck\SpellCheck.csproj">
-      <Project>{6d5e0752-9f30-413b-9d9c-6b65850606c7}</Project>
-      <Name>SpellCheck</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

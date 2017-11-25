@@ -15,7 +15,7 @@ namespace MsSpellCheckLib
         uint Length { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)] get; }
 
         [DispId(1610678274)]
-        CORRECTIVE_ACTION CorrectiveAction { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)] get; }
+        CorrectiveAction CorrectiveAction { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)] get; }
 
         [DispId(1610678275)]
         string Replacement
